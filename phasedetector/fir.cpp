@@ -127,7 +127,7 @@ void fir (
 ){
 
 	// Write your code here
-
+	data_t i_gi, q_gq, q_gi, i_gq;
 	//pass I and Q thru real filters
 	firI1(&i_gi, I); // I * G_I
     firQ1(&q_gq, Q); // Q * G_Q
